@@ -1,0 +1,99 @@
+<!------------Заголовки--------------->
+   h1 {
+    background:#4A4F56; /* Цвет фона под заголовком #88839E;#7A7593;*/
+    color: #EB7E7F; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+       font-family: Trebuchet MS;
+   margin: 0 auto;
+   } 
+h1{
+    background: #4A4F56;
+    color: #EB7E7F; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+       font-family: Trebuchet MS;
+   margin: 0 auto;
+}
+ h2 {
+    background: #4A4F56; /* Цвет фона под заголовком #88839E;#7A7593;*/
+    color: #EB7E7F; /* Цвет текста */
+    padding: 20px; /* Поля вокруг текста */
+       font-family: Trebuchet MS;
+     text-align: center;
+     margin: 0 auto;
+   } 
+
+ h3 {
+    background: #4A4F56; /* Цвет фона под заголовком #88839E;#7A7593;*/
+    color: #EB7E7F; /* Цвет текста */
+    padding: 20px; /* Поля вокруг текста */
+       font-family: Trebuchet MS;
+     text-align: center;
+     width: 45%;
+     margin-left: 335px;
+   } 
+<!------------Список------------------->
+em{
+     font-size:20px;
+}
+em{
+     font-size:15px;
+}
+em:before{
+    content: '(';
+}
+em:after{
+    content: ')';
+}
+li:active{
+    background: red;
+}
+.navigation {
+	list-style: none; /* прячем маркеры */
+	margin-left: 295px;
+    margin-right: 358px;
+     
+}
+.navigation li {
+	float: down; /* выстраиваем элементы списка */
+   line-height: 80px;
+    height: 80px;
+}
+.navigation li { /*свойства для стиля меню */
+     font-size: 180%;
+    font-family: Arial, sans-serif;
+	display: block;
+    text-decoration: none;
+	color: white;
+    
+
+}
+label{
+    display: inline-block;
+    width: 90%;
+    line-height: 80px;
+    height: 80px;
+}
+
+.navigation li:hover {
+	background-color:#625E77;
+	color:red;/*(цвет выделенного текста)*/
+.transition: all .1s ease-in;
+    border-bottom: 4px ridge white;
+       border-top: 4px ridge white;
+    
+}
+
+li:nth-child(2n){
+    color: white;
+    background: #88839E;
+  
+}
+li:nth-child(2n+1) {
+    color: white;
+    background:#7A7593;
+   
+}
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+ color: blue;
+}
